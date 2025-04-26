@@ -1,5 +1,5 @@
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "@/src/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/src/lib/auth";
 
 export default async function ProtectedPage() {
   const session = await getServerSession(authOptions);

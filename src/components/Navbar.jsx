@@ -116,7 +116,7 @@ export default function Navbar() {
             </div>
 
             <div className="border-t border-gray-200 px-4 py-6">
-              <a href="/" className="-m-2 flex items-center p-2">
+              <Link href="/" className="-m-2 flex items-center p-2">
                 <img
                   alt="brand logo"
                   src="/india logo.png"
@@ -126,7 +126,7 @@ export default function Navbar() {
                   IND
                 </span>
                 <span className="sr-only">, change currency</span>
-              </a>
+              </Link>
             </div>
           </DialogPanel>
         </div>
@@ -155,10 +155,10 @@ export default function Navbar() {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                <a href="/">
+                <Link href="/">
                   <span className="sr-only">Eden Mist</span>
                   <img alt="" src="/brand.jpg" className="h-14 w-20" />
-                </a>
+                </Link>
               </div>
 
               {/* Desktop Navigation */}
@@ -203,7 +203,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden lg:ml-8 lg:flex">
-                  <a
+                  <Link
                     href="/"
                     className="flex items-center text-gray-700 hover:text-gray-800"
                   >
@@ -214,7 +214,7 @@ export default function Navbar() {
                     />
                     <span className="ml-3 block text-sm font-medium">IND</span>
                     <span className="sr-only">, change currency</span>
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Account */}
